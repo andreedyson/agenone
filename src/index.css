@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#hero {
+  background-image: url("assets/hero-ornament.png");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+@layer components {
+  .btn-gradient {
+    @apply bg-gradient-to-br from-[#00796D] to-[#38C682];
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-br from-[#00796D] to-[#38C682] bg-clip-text text-transparent;
+  }
+
+  .hero-slider-items {
+    @apply max-sm:flex max-sm:aspect-square max-sm:snap-x max-sm:snap-mandatory max-sm:overflow-x-auto max-sm:scroll-smooth sm:grid sm:grid-cols-4 md:gap-20;
+  }
+
+  .slider-item {
+    @apply max-sm:flex-[1_0_100%] max-sm:snap-start;
+  }
+
+  .hero-slider-nav {
+    @apply z-[1] max-sm:absolute max-sm:bottom-8 max-sm:left-1/2 max-sm:flex max-sm:-translate-x-1/2 max-sm:gap-x-4;
+  }
+
+  .hero-slider-nav a {
+    @apply size-2 rounded-[50%] bg-white opacity-75 transition-[opacity] duration-200 ease-in md:hidden;
+  }
+
+  .hero-slider-nav a:hover {
+    opacity: 1;
+  }
+}

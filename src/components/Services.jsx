@@ -1,4 +1,4 @@
-import Accordion from "../components/Accordion";
+import Accordion from "../components/ui/Accordion";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -46,6 +46,12 @@ function Services() {
       },
     });
 
+    tl.from(".services-header", {
+      y: 20,
+      opacity: 0,
+      stagger: 0.3,
+    });
+
     tl.from(".accordion > *", {
       opacity: 0,
       x: -10,
@@ -63,12 +69,12 @@ function Services() {
       className="flex flex-col items-center justify-center gap-8 px-6 py-10 md:gap-16 md:py-[100px] lg:px-20"
     >
       {/* Services Header */}
-      <div>
+      <div className="services-header">
         <h3 className="text-center text-4xl font-bold md:text-6xl 2xl:text-7xl">
           The Services We Offer <span className="text-gradient">For You</span>
         </h3>
       </div>
-      <div className="accordion w-full">
+      <div className="accordion flex w-full flex-col gap-4 md:gap-6">
         {ACCORDION_DATA.map((acc) => (
           <div key={acc.name}>
             <Accordion

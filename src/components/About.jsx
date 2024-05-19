@@ -13,6 +13,18 @@ function About() {
       },
     });
 
+    tl.from(".about-text", {
+      y: 20,
+      opacity: 0,
+      stagger: 0.3,
+    });
+
+    tl.from(".about-grid", {
+      x: "-50",
+      opacity: 0,
+      duration: 1.2,
+    });
+
     tl.from(".grid-number", {
       textContent: 0,
       duration: 2,
@@ -27,8 +39,8 @@ function About() {
       id="about"
       className="relative flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-10 md:py-[100px] lg:px-20 xl:gap-16"
     >
-      <div>
-        <p className="text-2xl">
+      <div className="about-text">
+        <p className="text-2xl md:max-w-[800px] md:text-center">
           We are passionate about helping businesses grow and succeed in the
           digital age. We take pride in our work and strive to exceed your
           expectations every time.

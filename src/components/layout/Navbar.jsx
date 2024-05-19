@@ -39,7 +39,7 @@ function Navbar() {
           </div>
           {/* Navbar Desktop Links */}
           <div className="hidden items-center gap-10 text-base font-medium md:flex md:text-lg">
-            <a href="#home">Home</a>
+            <a href="#hero">Home</a>
             <a href="#services">Services</a>
             <a href="#about">About Us</a>
             <a href="#projects">Projects</a>
@@ -62,7 +62,7 @@ function Navbar() {
           className={`absolute left-0 top-[78px] flex h-screen w-full flex-col items-center gap-6 bg-main p-8 duration-300 ${openNav ? "opacity-1 translate-x-0" : "-translate-x-[300%] opacity-0"}`}
           onClick={handleOpenNav}
         >
-          <a href="#home">Home</a>
+          <a href="#hero">Home</a>
           <a href="#services">Services</a>
           <a href="#about">About Us</a>
           <a href="#projects">Projects</a>

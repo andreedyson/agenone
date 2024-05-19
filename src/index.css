@@ -14,6 +14,13 @@
   background-size: cover;
 }
 
+#projects {
+  background-image: url("assets/our-works-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
 @layer components {
   .btn-gradient {
     @apply bg-gradient-to-br from-[#00796D] to-[#38C682];

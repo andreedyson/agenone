@@ -65,8 +65,8 @@ function Testimonials() {
 
     tl.from(".testi-grid > *", {
       opacity: 0,
-      x: "-50",
-      stagger: 0.3,
+      x: "-30",
+      stagger: 0.4,
     });
   }, []);
 

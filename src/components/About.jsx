@@ -22,7 +22,6 @@ function About() {
     tl.from(".about-grid", {
       x: "-50",
       opacity: 0,
-      duration: 1.2,
     });
 
     tl.from(".grid-number", {

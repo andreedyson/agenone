@@ -27,10 +27,10 @@ function About() {
 
     tl.from(".grid-number", {
       textContent: 0,
-      duration: 2,
+      duration: 1.5,
       ease: "power1.easeIn",
       snap: { textContent: 1 },
-      stagger: 0.8,
+      stagger: 0.5,
     });
   }, []);
 

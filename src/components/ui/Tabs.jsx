@@ -23,8 +23,9 @@ function Tabs({ tabs }) {
   useGSAP(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".projects-header",
+        trigger: ".projects-tabs",
         toggleActions: "play none none none",
+        start: "top 80%",
       },
     });
 
@@ -36,12 +37,12 @@ function Tabs({ tabs }) {
   }, []);
 
   return (
-    <div className="flex w-full flex-col items-center gap-8 md:gap-12">
+    <div className="projects-tabs flex w-full flex-col items-center gap-8 md:gap-12">
       <div className="tabs-title flex gap-4 rounded-full bg-white p-2 md:px-4 md:py-2">
         {tabs.map((tab, index) => (
           <div
             key={index}
-            className={`flex cursor-pointer items-center justify-center rounded-full px-4 py-2 text-center text-[#6D7079] md:px-8 md:py-3 ${activeTabIndex === index ? "btn-gradient text-white" : ""}`}
+            className={`flex cursor-pointer items-center justify-center rounded-full px-4 py-2 text-center text-[#6D7079] md:px-8 md:py-3 ${activeTabIndex === index ? "bg-gradient-main text-white" : ""}`}
             onClick={() => setActiveTabIndex(index)}
           >
             {isSmallScreen ? abbreviateTitle(tab.title) : tab.title}

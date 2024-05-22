@@ -22,7 +22,7 @@
 }
 
 @layer components {
-  .btn-gradient {
+  .bg-gradient-main {
     @apply bg-gradient-to-br from-[#00796D] to-[#38C682];
   }
 

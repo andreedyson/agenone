@@ -47,7 +47,7 @@ function Navbar() {
           {/* Navbar Contact Us Button */}
           <div>
             <a href="#contact">
-              <button className="btn-gradient hidden h-[56px] w-[135px] rounded-full font-semibold duration-300 hover:opacity-70 md:block">
+              <button className="bg-gradient-main hidden h-[56px] w-[135px] rounded-full font-semibold duration-300 hover:opacity-70 md:block">
                 Contact Us
               </button>
             </a>

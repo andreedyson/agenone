@@ -62,7 +62,7 @@ function Hero() {
         {/* Hero CTA */}
         <div className="hero-cta mt-10">
           <a href="#contact">
-            <button className="btn-gradient flex h-[56px] w-[166px] items-center justify-center gap-2 rounded-full font-semibold duration-300 hover:opacity-70 md:text-lg">
+            <button className="bg-gradient-main flex h-[56px] w-[166px] items-center justify-center gap-2 rounded-full font-semibold duration-300 hover:opacity-70 md:text-lg">
               Contact Us
               <ArrowRight size={16} />
             </button>

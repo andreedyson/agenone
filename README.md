@@ -1,8 +1,10 @@
-# React + Vite
+![agenone-hero](https://github.com/andreedyson/agenone/assets/108970537/96372c54-939d-4666-a0a6-220558516d56)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Agenone
 
-Currently, two official plugins are available:
+Slicing UI for digital agency landing website features a bold hero section with clear benefits, a comprehensive services section to showcase their offerings, an experience statistic to highlight their expertise, a portfolio of their past projects, testimonials from satisfied clients, and a prominent call-to-action to encourage potential clients to take the next step.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stacks
+- React
+- Tailwind
+- GSAP

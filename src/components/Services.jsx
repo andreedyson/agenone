@@ -66,7 +66,7 @@ function Services() {
   return (
     <section
       id="services"
-      className="flex flex-col items-center justify-center gap-8 px-6 py-10 md:gap-16 md:py-[100px] lg:px-20"
+      className="flex flex-col items-center justify-center gap-8 px-6 py-20 md:gap-16 md:py-[120px] lg:px-20"
     >
       {/* Services Header */}
       <div className="services-header">

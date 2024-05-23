@@ -8,42 +8,42 @@ function Testimonials() {
       reviewer: "Andre Edyson",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
-      occupation: "Earth Founder",
+      occupation: "Earth Wanderer",
       profileImg: "/src/assets/person/person-1.jpg",
     },
     {
       reviewer: "Diana Dauri",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
-      occupation: "Earth Founder",
+      occupation: "CEO CineReel",
       profileImg: "/src/assets/person/person-2.jpg",
     },
     {
       reviewer: "Meliska Antonella",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
-      occupation: "Earth Founder",
+      occupation: "FinTrack Manager",
       profileImg: "/src/assets/person/person-3.jpg",
     },
     {
       reviewer: "Anthony Werner",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
-      occupation: "Earth Founder",
+      occupation: "CFO Destinize",
       profileImg: "/src/assets/person/person-4.jpg",
     },
     {
       reviewer: "Jimmy Cooks",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
-      occupation: "Earth Founder",
+      occupation: "COO MakeMoney",
       profileImg: "/src/assets/person/person-5.jpg",
     },
     {
       reviewer: "Glenn Franklin",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
-      occupation: "Earth Founder",
+      occupation: "CFO Suxz",
       profileImg: "/src/assets/person/person-6.jpg",
     },
   ];
@@ -71,7 +71,7 @@ function Testimonials() {
   }, []);
 
   return (
-    <section className="flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-10 md:py-[100px] lg:px-20 xl:gap-16">
+    <section className="flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-20 md:py-[120px] lg:px-20 xl:gap-16">
       <div className="testi-header flex flex-col items-center gap-4 md:gap-8">
         <h3 className="text-center text-4xl font-bold md:text-6xl 2xl:text-7xl">
           What People Say <span className="text-gradient">About Us?</span>

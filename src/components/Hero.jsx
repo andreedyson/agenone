@@ -40,7 +40,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col items-center justify-center bg-main px-6 py-10 text-white md:py-[100px] lg:px-20"
+      className="flex flex-col items-center justify-center bg-main px-6 py-20 text-white md:py-[120px] lg:px-20"
     >
       <div className="flex flex-col items-center justify-center">
         {/* Hero Text */}

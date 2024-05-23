@@ -40,7 +40,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col items-center justify-center bg-main px-6 py-20 text-white md:py-[120px] lg:px-20"
+      className="flex flex-col items-center justify-center bg-main px-6 py-10 text-white md:py-[120px] lg:px-20"
     >
       <div className="flex flex-col items-center justify-center">
         {/* Hero Text */}
@@ -80,7 +80,7 @@ function Hero() {
             <div className="slider-item flex flex-col items-center justify-center gap-8">
               <img
                 id="maximize"
-                src="/src/assets/icons/special-icon-maximize.svg"
+                src="/assets/icons/special-icon-maximize.svg"
                 alt="Maximize"
                 className="rounded-full bg-white p-4 outline outline-8 outline-offset-8"
               />
@@ -91,7 +91,7 @@ function Hero() {
             <div className="slider-item flex flex-col items-center justify-center gap-8">
               <img
                 id="wallet"
-                src="/src/assets/icons/special-icon-wallet.svg"
+                src="/assets/icons/special-icon-wallet.svg"
                 alt="Wallet"
                 className="rounded-full bg-white p-4 outline outline-8 outline-offset-8"
               />
@@ -100,7 +100,7 @@ function Hero() {
             <div className="slider-item flex flex-col items-center justify-center gap-8">
               <img
                 id="star"
-                src="/src/assets/icons/special-icon-star.svg"
+                src="/assets/icons/special-icon-star.svg"
                 alt="Star"
                 className="rounded-full bg-white p-4 outline outline-8 outline-offset-8"
               />
@@ -111,7 +111,7 @@ function Hero() {
             <div className="slider-item flex flex-col items-center justify-center gap-8">
               <img
                 id="peoples"
-                src="/src/assets/icons/special-icon-peoples.svg"
+                src="/assets/icons/special-icon-peoples.svg"
                 alt="Peoples"
                 className="rounded-full bg-white p-4 outline outline-8 outline-offset-8"
               />
@@ -128,14 +128,14 @@ function Hero() {
         </div>
         <div className="absolute hidden max-sm:block">
           <img
-            src="/src/assets/hero-banner-mobile.png"
+            src="/assets/hero-banner-mobile.png"
             alt="Hero Banner Mobile"
             className="h-[380px]"
           />
         </div>
         <div className="absolute hidden w-full items-center justify-center sm:flex">
           <img
-            src="/src/assets/hero-banner-desktop.png"
+            src="/assets/hero-banner-desktop.png"
             alt="Hero Banner Desktop"
             className="h-[360px]"
           />

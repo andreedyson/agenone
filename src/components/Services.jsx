@@ -9,28 +9,28 @@ const ACCORDION_DATA = [
     name: "UI / UX Design",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas  commodi laboriosam iste quidem nostrum ratione, ducimus consequatur,numquam consequuntur, optio quam libero corrupti doloremque! Quos?",
-    image: "/src/assets/service-img-1.png",
+    image: "/assets/service-img-1.png",
   },
   {
     number: 2,
     name: "Social Media Marketing",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas  commodi laboriosam iste quidem nostrum ratione, ducimus consequatur,numquam consequuntur, optio quam libero corrupti doloremque! Quos?",
-    image: "/src/assets/service-img-2.jpg",
+    image: "/assets/service-img-2.jpg",
   },
   {
     number: 3,
     name: "Social Media Management",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas  commodi laboriosam iste quidem nostrum ratione, ducimus consequatur,numquam consequuntur, optio quam libero corrupti doloremque! Quos?",
-    image: "/src/assets/service-img-3.jpg",
+    image: "/assets/service-img-3.jpg",
   },
   {
     number: 4,
     name: "Development",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas  commodi laboriosam iste quidem nostrum ratione, ducimus consequatur,numquam consequuntur, optio quam libero corrupti doloremque! Quos?",
-    image: "/src/assets/service-img-4.jpg",
+    image: "/assets/service-img-4.jpg",
   },
 ];
 

@@ -9,42 +9,42 @@ function Testimonials() {
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
       occupation: "Earth Wanderer",
-      profileImg: "/src/assets/person/person-1.jpg",
+      profileImg: "/assets/person/person-1.jpg",
     },
     {
       reviewer: "Diana Dauri",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
       occupation: "CEO CineReel",
-      profileImg: "/src/assets/person/person-2.jpg",
+      profileImg: "/assets/person/person-2.jpg",
     },
     {
       reviewer: "Meliska Antonella",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
       occupation: "FinTrack Manager",
-      profileImg: "/src/assets/person/person-3.jpg",
+      profileImg: "/assets/person/person-3.jpg",
     },
     {
       reviewer: "Anthony Werner",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
       occupation: "CFO Destinize",
-      profileImg: "/src/assets/person/person-4.jpg",
+      profileImg: "/assets/person/person-4.jpg",
     },
     {
       reviewer: "Jimmy Cooks",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
       occupation: "COO MakeMoney",
-      profileImg: "/src/assets/person/person-5.jpg",
+      profileImg: "/assets/person/person-5.jpg",
     },
     {
       reviewer: "Glenn Franklin",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
       occupation: "CFO Suxz",
-      profileImg: "/src/assets/person/person-6.jpg",
+      profileImg: "/assets/person/person-6.jpg",
     },
   ];
 

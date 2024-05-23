@@ -57,11 +57,7 @@ function Navbar() {
           {/* Navbar Logo */}
           <div>
             <a href="/" className="flex items-center gap-2 md:gap-3">
-              <img
-                src="/src/assets/logo.png"
-                alt="Agenone Logo"
-                className="w-9"
-              />
+              <img src="/assets/logo.png" alt="Agenone Logo" className="w-9" />
               <p className="text-xl font-bold italic md:text-2xl">Agenone</p>
             </a>
           </div>

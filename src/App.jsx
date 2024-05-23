@@ -1,4 +1,4 @@
-import "./index.css";
+import "/src/index.css";
 import Navbar from "./components/layout/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";

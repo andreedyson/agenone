@@ -24,22 +24,22 @@ function Company() {
     >
       <div className="company-grid grid w-full grid-cols-2 place-content-between place-items-center gap-12 md:grid-cols-3 md:gap-16 lg:grid-cols-6">
         <div>
-          <img src="/src/assets/brands/slack.png" alt="Slack" />
+          <img src="/assets/brands/slack.png" alt="Slack" />
         </div>
         <div>
-          <img src="/src/assets/brands/google.png" alt="Google" />
+          <img src="/assets/brands/google.png" alt="Google" />
         </div>
         <div>
-          <img src="/src/assets/brands/netflix.png" alt="Netflix" />
+          <img src="/assets/brands/netflix.png" alt="Netflix" />
         </div>
         <div>
-          <img src="/src/assets/brands/airbnb.png" alt="AirBNB" />
+          <img src="/assets/brands/airbnb.png" alt="AirBNB" />
         </div>
         <div>
-          <img src="/src/assets/brands/adobe.png" alt="Adobe" />
+          <img src="/assets/brands/adobe.png" alt="Adobe" />
         </div>
         <div>
-          <img src="/src/assets/brands/microsoft.png" alt="Microsoft" />
+          <img src="/assets/brands/microsoft.png" alt="Microsoft" />
         </div>
       </div>
     </section>

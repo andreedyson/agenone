@@ -78,14 +78,14 @@ function About() {
 
       <div className="absolute hidden h-full w-full max-sm:block">
         <img
-          src="/src/assets/about-bg-mobile.png"
+          src="/assets/about-bg-mobile.png"
           alt="About BG Mobile"
           className="h-full w-full object-cover"
         />
       </div>
       <div className="absolute hidden h-full w-full items-center justify-center sm:flex">
         <img
-          src="/src/assets/about-bg-desktop.png"
+          src="/assets/about-bg-desktop.png"
           alt="About BG Desktop"
           className="h-full w-full object-cover"
         />

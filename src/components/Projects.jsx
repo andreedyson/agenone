@@ -8,13 +8,13 @@ const tabsData = [
     content: [
       {
         title: "Mobile App Design",
-        img: "/src/assets/projects/uiux-1.jpg",
+        img: "/assets/projects/uiux-1.jpg",
         description:
           "Crafted user-centered mobile app experiences.  Focused on intuitive navigation, clear UI design, and engaging interactions. Leveraged user research to optimize usability and ensure a seamless user journey.",
       },
       {
         title: "Web Design",
-        img: "/src/assets/projects/uiux-2.jpg",
+        img: "/assets/projects/uiux-2.jpg",
         description:
           "Designed user-friendly and visually appealing websites. Prioritized clear information architecture, intuitive navigation, and responsive design for optimal user experience across all devices.",
       },
@@ -25,13 +25,13 @@ const tabsData = [
     content: [
       {
         title: "Content Marketing Strategy",
-        img: "/src/assets/projects/sm-1.jpg",
+        img: "/assets/projects/sm-1.jpg",
         description:
           "Developed a targeted content marketing strategy that attracted qualified leads. Created engaging blog posts, infographics, and social media content aligned with user interests and search intent. This resulted in a 40% increase in website leads for the client.",
       },
       {
         title: "Email Marketing Campaign",
-        img: "/src/assets/projects/sm-2.jpg",
+        img: "/assets/projects/sm-2.jpg",
         description:
           "Segmented customer email lists and crafted personalized email campaigns promoting relevant products and special offers. Optimized email content and subject lines for improved open rates and click-through rates. This e-commerce email marketing campaign led to a 25% increase in sales for the online store.",
       },
@@ -42,13 +42,13 @@ const tabsData = [
     content: [
       {
         title: "Grew Community and Engagement",
-        img: "/src/assets/projects/dm-1.jpg",
+        img: "/assets/projects/dm-1.jpg",
         description:
           "Developed and executed a social media strategy to cultivate a thriving online community for an e-commerce brand. Implemented engaging content formats, fostered brand interaction, and responded promptly to customer inquiries. This strategy resulted in a 30% increase in follower engagement and brand loyalty.",
       },
       {
         title: "Influencer Marketing Campaign",
-        img: "/src/assets/projects/dm-2.jpg",
+        img: "/assets/projects/dm-2.jpg",
         description:
           "Identified and collaborated with relevant social media influencers to promote a client's website. Created engaging content featuring influencer endorsements and product placements. This influencer marketing campaign drove significant website traffic growth, leading to a 50% increase in website visits.",
       },
@@ -59,13 +59,13 @@ const tabsData = [
     content: [
       {
         title: "MERN Stacks App",
-        img: "/src/assets/projects/wd-1.jpg",
+        img: "/assets/projects/wd-1.jpg",
         description:
           "Built dynamic and scalable web applications using the MERN stack.  This development approach utilizes MongoDB for flexible data storage, Express.js for server-side scripting, React.js for user interface creation, and Node.js for a unified JavaScript environment. The MERN stack allows for rapid development, streamlined code management, and efficient real-time updates, making it ideal for building robust and engaging web applications.",
       },
       {
         title: "Progressive Web App",
-        img: "/src/assets/projects/wd-2.jpg",
+        img: "/assets/projects/wd-2.jpg",
         description:
           "Developed Progressive Web Apps (PWAs) that combine the best of web and native apps.  These PWAs offer fast loading times, offline functionality, and a user experience that feels like a native app, all accessible from a web browser. This approach provides a wider reach for users and eliminates the need for app store downloads.",
       },

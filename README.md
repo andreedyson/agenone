@@ -8,3 +8,5 @@ Slicing UI for digital agency landing website features a bold hero section with 
 - React
 - Tailwind
 - GSAP
+
+**This UI Design was provided from [CodeDesign Website](https://codedesign.dev/challenge/agenone)**

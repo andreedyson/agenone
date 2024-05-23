@@ -36,7 +36,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-10 md:py-[100px] lg:px-20 xl:gap-16"
+      className="relative flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-20 md:py-[120px] lg:px-20 xl:gap-16"
     >
       <div className="about-text">
         <p className="text-2xl md:max-w-[800px] md:text-center">

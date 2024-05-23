@@ -93,7 +93,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="relative flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-10 text-white md:py-[100px] lg:px-20 xl:gap-16"
+      className="relative flex h-full w-full flex-col items-center justify-center gap-8 px-6 py-20 text-white md:py-[120px] lg:px-20 xl:gap-16"
     >
       {/* Services Header */}
       <div className="projects-header flex flex-col items-center gap-4 md:gap-8">

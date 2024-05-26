@@ -7,42 +7,42 @@ function Testimonials() {
     {
       reviewer: "Andre Edyson",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
+        "Impressed! The website layout is clear and engaging. They showcase their work effectively, making it easy to see how they can help my business.",
       occupation: "Earth Wanderer",
       profileImg: "/assets/person/person-1.jpg",
     },
     {
       reviewer: "Diana Dauri",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
+        "Found my perfect partner! Their services section perfectly matched my needs. I loved the client testimonials and contacted them right away.",
       occupation: "CEO CineReel",
       profileImg: "/assets/person/person-2.jpg",
     },
     {
       reviewer: "Meliska Antonella",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
+        "Stand out from the crowd!  This website makes a strong first impression. It's clear they understand digital marketing and can deliver results.",
       occupation: "FinTrack Manager",
       profileImg: "/assets/person/person-3.jpg",
     },
     {
       reviewer: "Anthony Werner",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
+        "Expertise speaks volumes! The experience stats are impressive. It gives me confidence that they can handle any digital challenge I throw their way.",
       occupation: "CFO Destinize",
       profileImg: "/assets/person/person-4.jpg",
     },
     {
       reviewer: "Jimmy Cooks",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
+        "Seamless experience! The website is easy to navigate and informative.  I learned everything I needed to know about their services and contacted them for a consultation.",
       occupation: "COO MakeMoney",
       profileImg: "/assets/person/person-5.jpg",
     },
     {
       reviewer: "Glenn Franklin",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos illo laborum nesciunt ex, cum error exercitationem non rerum dolores?",
+        "Makes you want to work with them! The client portfolio is stunning. It showcases their creativity and ability to deliver exceptional projects.",
       occupation: "CFO Suxz",
       profileImg: "/assets/person/person-6.jpg",
     },

@@ -7,7 +7,7 @@ function Company() {
       scrollTrigger: {
         trigger: "#company",
         toggleActions: "play none none none",
-        start: "top center",
+        start: "top 85%",
       },
     });
 

@@ -42,7 +42,7 @@ function Services() {
       scrollTrigger: {
         trigger: ".accordion",
         toggleActions: "play none none none",
-        start: "top center",
+        start: "top 85%",
       },
     });
 

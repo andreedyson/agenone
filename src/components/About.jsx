@@ -26,10 +26,10 @@ function About() {
 
     tl.from(".grid-number", {
       textContent: 0,
-      duration: 1.5,
+      duration: 0.8,
       ease: "power1.easeIn",
       snap: { textContent: 1 },
-      stagger: 0.5,
+      stagger: 0.3,
     });
   }, []);
 

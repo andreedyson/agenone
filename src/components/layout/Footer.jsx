@@ -33,7 +33,7 @@ function Footer() {
 
         <div className="grid grid-cols-2 gap-y-6 md:grid-cols-3 md:gap-[120px]">
           <div className="flex flex-col gap-4 md:gap-6">
-            <h5 className="font-semibold">Menu</h5>
+            <h4 className="font-semibold">Menu</h4>
             <div className="flex flex-col gap-3 text-[#B6B8BC] md:gap-4">
               <a href="#">Home</a>
               <a href="#">Services</a>
@@ -43,7 +43,7 @@ function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-4 md:gap-6">
-            <h5 className="font-semibold">Support</h5>
+            <h4 className="font-semibold">Support</h4>
             <div className="flex flex-col gap-3 text-[#B6B8BC] md:gap-4">
               <a href="#">FAQ</a>
               <a href="#">Privacy Policy</a>
@@ -51,7 +51,7 @@ function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-4 md:gap-6">
-            <h5 className="font-semibold">Social Media</h5>
+            <h4 className="font-semibold">Social Media</h4>
             <div className="flex flex-col gap-3 text-[#B6B8BC] md:gap-4">
               <a href="#">LinkedIn</a>
               <a href="#">Twitter</a>
@@ -64,10 +64,20 @@ function Footer() {
       </div>
 
       {/* Footer Copyright */}
-      <div>
+      <div className="space-y-3">
         <span className="flex items-center justify-center text-center text-[#B6B8BC]">
           Copyright © 2023 by Agenone. All rights reserved.
         </span>
+        <p className="text-center text-[#B6B8BC]">
+          Design by{" "}
+          <a
+            href="https://codedesign.dev/challenge/agenone"
+            target="_blank"
+            className="text-[#ffd466] duration-200 hover:underline"
+          >
+            CodeDesign
+          </a>
+        </p>
       </div>
     </footer>
   );

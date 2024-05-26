@@ -9,7 +9,7 @@ function Accordion({ number, name, description, image }) {
   };
 
   return (
-    <article className="flex w-full gap-3 bg-[#f8f8f8] p-6 md:gap-10 md:px-[60px] md:py-[54px]">
+    <article className="flex w-full gap-3 rounded-md bg-[#f3f3f3] p-6 md:gap-10 md:px-[60px] md:py-[54px]">
       {/* Accordion Number */}
       <div>
         <span
